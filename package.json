@@ -4,7 +4,9 @@
   "description": "iniciando nesse novo mundo e implementar o https://www.tabnews.com.br para o https://curso.dev ;",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/MarcusDevLopes/clone-tabnews#readme",
   "dependencies": {
     "next": "^13.1.6",
+    "prettier": "^3.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
